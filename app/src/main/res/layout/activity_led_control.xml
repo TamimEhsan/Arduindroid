@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ledControl">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RC Control"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forward"
+        android:id="@+id/buttonForward"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView2"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backward"
+        android:id="@+id/buttonBackward"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buttonForward"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:id="@+id/buttonRight"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buttonBackward"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:id="@+id/buttonLeft"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buttonRight"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/buttonStop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buttonLeft"
+         />
+
+</RelativeLayout>
